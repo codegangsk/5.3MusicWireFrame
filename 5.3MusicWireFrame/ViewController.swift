@@ -20,6 +20,15 @@ class ViewController: UIViewController {
 extension ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        reverseButtonBackground.layer.cornerRadius = 35.0
+        reverseButtonBackground.clipsToBounds = true
+        
+        playPauseButtonBackground.layer.cornerRadius = 35.0
+        playPauseButtonBackground.clipsToBounds = true
+        
+        forwardButtonBackground.layer.cornerRadius = 35.0
+        forwardButtonBackground.clipsToBounds = true 
     }
 }
 

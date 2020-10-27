@@ -100,7 +100,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="albumImageVIew" destination="WZO-fJ-XZz" id="k9j-f3-H7O"/>
                         <outlet property="albumImageView" destination="WZO-fJ-XZz" id="fmJ-QC-Zir"/>
                         <outlet property="forwardButton" destination="UYT-pP-lVU" id="PBD-rr-HK5"/>
                         <outlet property="forwardButtonBackground" destination="2VH-ls-RE1" id="WZS-DJ-Bg1"/>
