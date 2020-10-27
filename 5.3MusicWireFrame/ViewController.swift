@@ -23,12 +23,15 @@ extension ViewController {
         
         reverseButtonBackground.layer.cornerRadius = 35.0
         reverseButtonBackground.clipsToBounds = true
+        reverseButtonBackground.alpha = 0.0
         
         playPauseButtonBackground.layer.cornerRadius = 35.0
         playPauseButtonBackground.clipsToBounds = true
+        playPauseButtonBackground.alpha = 0.0
         
         forwardButtonBackground.layer.cornerRadius = 35.0
-        forwardButtonBackground.clipsToBounds = true 
+        forwardButtonBackground.clipsToBounds = true
+        forwardButtonBackground.alpha = 0.0 
     }
 }
 
