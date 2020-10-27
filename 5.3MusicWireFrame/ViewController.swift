@@ -15,6 +15,16 @@ class ViewController: UIViewController {
     @IBOutlet var reverseButton: UIButton!
     @IBOutlet var playPauseButton: UIButton!
     @IBOutlet var forwardButton: UIButton!
+    
+    var isPlaying: Bool = true {
+        didSet {
+            if isPlaying {
+                playPauseButton.setImage(UIImage(named:"pause")!, for: .normal)
+            } else {
+                playPauseButton.setImage(UIImage(named: "play")!, for: .normal)
+            }
+        }
+    }
 }
 
 extension ViewController {
