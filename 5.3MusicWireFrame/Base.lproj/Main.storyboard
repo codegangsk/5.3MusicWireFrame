@@ -57,6 +57,10 @@
                                             <constraint firstAttribute="height" constant="60" id="fHQ-fl-Qd0"/>
                                         </constraints>
                                         <state key="normal" image="reverse"/>
+                                        <connections>
+                                            <action selector="touchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="8ws-TH-Asq"/>
+                                            <action selector="touchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AvG-xg-5Wh"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNd-tT-Vbp">
                                         <rect key="frame" x="126" y="0.0" width="60" height="60"/>
@@ -68,6 +72,8 @@
                                         <state key="normal" image="pause"/>
                                         <connections>
                                             <action selector="playPauseButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zY0-cG-1ca"/>
+                                            <action selector="touchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="TbZ-M7-cV6"/>
+                                            <action selector="touchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W0j-Yk-wrc"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYT-pP-lVU">
@@ -77,6 +83,10 @@
                                             <constraint firstAttribute="height" constant="60" id="qbl-7L-ID9"/>
                                         </constraints>
                                         <state key="normal" image="forward"/>
+                                        <connections>
+                                            <action selector="touchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="HoQ-AL-bEh"/>
+                                            <action selector="touchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9lc-vQ-6DX"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
